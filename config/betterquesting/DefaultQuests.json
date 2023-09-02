@@ -52280,7 +52280,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Silicon dioxide wafers are the base of many complex semiconductor-based technologies, such as NAND wafers for EV-tier circuits.\n\nThis is only the beginning. ",
+          "desc:8": "Silicon dioxide wafers are the base of many complex semiconductor-based technologies, such as NAND wafers for EV-tier circuits.\n\nStart with §6roasting §ra §6Silicon Wafer§r with Oxygen using a §cHV Roaster §rin a§c Cleanroom. §r\n\nFor more information, check the§r §1§1§2§2§3§2§l§r§lSemiconductors chapter§r§r§r§r. This is only the beginning. ",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -53315,7 +53315,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Behold, the NAND chip. A well-earned technological achievement.",
+          "desc:8": "Behold, the NAND chip, a requirement for EV circuits. A well-earned technological achievement.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -57953,9 +57953,9 @@
     },
     "767:10": {
       "preRequisites:11": [
-        766,
+        700,
         701,
-        700
+        766
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -62602,28 +62602,28 @@
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 108,
-          "y:3": -216
+          "y:3": -222
         },
         "51:10": {
           "id:3": 703,
           "sizeX:3": 48,
           "sizeY:3": 48,
-          "x:3": 156,
-          "y:3": -222
+          "x:3": 165,
+          "y:3": -228
         },
         "52:10": {
           "id:3": 704,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 228,
-          "y:3": -210
+          "y:3": -216
         },
         "53:10": {
           "id:3": 705,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": 162,
-          "y:3": -270
+          "x:3": 171,
+          "y:3": -295
         },
         "54:10": {
           "id:3": 706,
@@ -63124,7 +63124,7 @@
     },
     "16:10": {
       "lineID:3": 16,
-      "order:3": 22,
+      "order:3": 23,
       "properties:10": {
         "betterquesting:10": {
           "bg_image:8": "",
@@ -63691,7 +63691,7 @@
     },
     "17:10": {
       "lineID:3": 17,
-      "order:3": 16,
+      "order:3": 18,
       "properties:10": {
         "betterquesting:10": {
           "bg_image:8": "",
@@ -63756,7 +63756,7 @@
     },
     "18:10": {
       "lineID:3": 18,
-      "order:3": 19,
+      "order:3": 21,
       "properties:10": {
         "betterquesting:10": {
           "bg_image:8": "",
@@ -64053,7 +64053,7 @@
     },
     "19:10": {
       "lineID:3": 19,
-      "order:3": 23,
+      "order:3": 24,
       "properties:10": {
         "betterquesting:10": {
           "bg_image:8": "",
@@ -64228,7 +64228,7 @@
     },
     "20:10": {
       "lineID:3": 20,
-      "order:3": 20,
+      "order:3": 22,
       "properties:10": {
         "betterquesting:10": {
           "bg_image:8": "",
@@ -64383,7 +64383,7 @@
     },
     "21:10": {
       "lineID:3": 21,
-      "order:3": 21,
+      "order:3": 16,
       "properties:10": {
         "betterquesting:10": {
           "bg_image:8": "",
@@ -64515,90 +64515,83 @@
           "y:3": 100
         },
         "15:10": {
-          "id:3": 767,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": -120,
-          "y:3": 100
-        },
-        "16:10": {
           "id:3": 768,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -80,
           "y:3": 100
         },
-        "17:10": {
+        "16:10": {
           "id:3": 769,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -40,
           "y:3": 100
         },
-        "18:10": {
+        "17:10": {
           "id:3": 770,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -240,
           "y:3": 140
         },
-        "19:10": {
+        "18:10": {
           "id:3": 771,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 40,
           "y:3": 100
         },
-        "20:10": {
+        "19:10": {
           "id:3": 772,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 80,
           "y:3": 100
         },
-        "21:10": {
+        "20:10": {
           "id:3": 773,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 200,
           "y:3": 140
         },
-        "22:10": {
+        "21:10": {
           "id:3": 774,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 280,
           "y:3": 140
         },
-        "23:10": {
+        "22:10": {
           "id:3": 776,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 240,
           "y:3": 100
         },
-        "24:10": {
+        "23:10": {
           "id:3": 777,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 160,
           "y:3": 100
         },
-        "25:10": {
+        "24:10": {
           "id:3": 778,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 200,
           "y:3": 100
         },
-        "26:10": {
+        "25:10": {
           "id:3": 779,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 120,
           "y:3": 100
         },
-        "27:10": {
+        "26:10": {
           "id:3": 780,
           "sizeX:3": 24,
           "sizeY:3": 24,
@@ -64609,7 +64602,7 @@
     },
     "22:10": {
       "lineID:3": 22,
-      "order:3": 24,
+      "order:3": 25,
       "properties:10": {
         "betterquesting:10": {
           "bg_image:8": "",
@@ -65477,7 +65470,7 @@
     },
     "23:10": {
       "lineID:3": 23,
-      "order:3": 17,
+      "order:3": 19,
       "properties:10": {
         "betterquesting:10": {
           "bg_image:8": "",
@@ -65794,7 +65787,7 @@
     },
     "24:10": {
       "lineID:3": 24,
-      "order:3": 26,
+      "order:3": 27,
       "properties:10": {
         "betterquesting:10": {
           "bg_image:8": "",
@@ -66188,7 +66181,7 @@
     },
     "25:10": {
       "lineID:3": 25,
-      "order:3": 18,
+      "order:3": 20,
       "properties:10": {
         "betterquesting:10": {
           "bg_image:8": "",
@@ -66300,7 +66293,7 @@
     },
     "26:10": {
       "lineID:3": 26,
-      "order:3": 25,
+      "order:3": 26,
       "properties:10": {
         "betterquesting:10": {
           "bg_image:8": "",
@@ -66342,7 +66335,7 @@
     },
     "27:10": {
       "lineID:3": 27,
-      "order:3": 27,
+      "order:3": 28,
       "properties:10": {
         "betterquesting:10": {
           "bg_image:8": "",
@@ -66484,6 +66477,190 @@
           "sizeY:3": 24,
           "x:3": 168,
           "y:3": 0
+        }
+      }
+    },
+    "28:10": {
+      "lineID:3": 28,
+      "order:3": 17,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Description",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 5103,
+            "ForgeCaps:10": {
+              "regeneration:arch:10": {
+                "arch_status:8": "NORMAL_ITEM",
+                "regenAmount:3": 0,
+                "skin:8": "NONE",
+                "skinType:8": "STEVE",
+                "trait:8": "regeneration:boring"
+              }
+            },
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_2"
+          },
+          "name:8": "Semiconductors",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 457,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 0,
+          "y:3": 0
+        },
+        "1:10": {
+          "id:3": 493,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 24,
+          "y:3": 24
+        },
+        "2:10": {
+          "id:3": 587,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 196,
+          "y:3": 120
+        },
+        "3:10": {
+          "id:3": 687,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 108,
+          "y:3": 120
+        },
+        "4:10": {
+          "id:3": 698,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -96,
+          "y:3": -48
+        },
+        "5:10": {
+          "id:3": 699,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 416,
+          "y:3": 120
+        },
+        "6:10": {
+          "id:3": 702,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 724,
+          "y:3": 120
+        },
+        "7:10": {
+          "id:3": 765,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 152,
+          "y:3": 120
+        },
+        "8:10": {
+          "id:3": 766,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 240,
+          "y:3": 120
+        },
+        "9:10": {
+          "id:3": 767,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 284,
+          "y:3": 120
+        },
+        "10:10": {
+          "id:3": 768,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 336,
+          "y:3": 108
+        },
+        "11:10": {
+          "id:3": 769,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 372,
+          "y:3": 120
+        },
+        "12:10": {
+          "id:3": 770,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 152,
+          "y:3": 160
+        },
+        "13:10": {
+          "id:3": 771,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 460,
+          "y:3": 120
+        },
+        "14:10": {
+          "id:3": 772,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 504,
+          "y:3": 120
+        },
+        "15:10": {
+          "id:3": 773,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 636,
+          "y:3": 160
+        },
+        "16:10": {
+          "id:3": 774,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 724,
+          "y:3": 160
+        },
+        "17:10": {
+          "id:3": 776,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 680,
+          "y:3": 120
+        },
+        "18:10": {
+          "id:3": 777,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 592,
+          "y:3": 120
+        },
+        "19:10": {
+          "id:3": 778,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 636,
+          "y:3": 120
+        },
+        "20:10": {
+          "id:3": 779,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 548,
+          "y:3": 120
+        },
+        "21:10": {
+          "id:3": 780,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 680,
+          "y:3": 160
         }
       }
     }
