@@ -1845,7 +1845,7 @@ public class UnknownCompositionMaterials {
         SeleniumFreeCopperLeach = new Material.Builder(4351, "selenium_free_copper_leach")
                 .fluid()
                 .color(0xe60e0e)
-                .build();
+                .build(); 
 
         SeleniumDioxide = new Material.Builder(4352, "selenium_dioxide")
                 .dust()
