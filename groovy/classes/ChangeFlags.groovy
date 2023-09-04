@@ -83,6 +83,10 @@ class ChangeFlags {
         LithiumChloride.setProperty(PropertyKey.FLUID, new FluidProperty());
         SiliconDioxide.setProperty(PropertyKey.FLUID, new FluidProperty());
         Chlorine.setProperty(PropertyKey.PLASMA, new PlasmaProperty());
+        
+        OsmiumTetroxide.setProperty(PropertyKey.FLUID, new FluidProperty(FluidTypes.GAS, false));
+        OsmiumTetroxide.getProperty(PropertyKey.FLUID).setFluidTemperature(404);
+        OsmiumTetroxide.addFlags("NO_UNIFICATION")
 
         Polydimethylsiloxane.setProperty(PropertyKey.FLUID, new FluidProperty());
 

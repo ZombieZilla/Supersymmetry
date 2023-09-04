@@ -1724,6 +1724,18 @@ material.propylene_oxide_solution=Propylene Oxide Solution
 material.su_eight=SU-8 Photoresist
 material.hydrodealkylated_toluene_mixture=Hydrodealkylated Toluene Mixture
 material.ortho_para_xylene_mixture=o/p-Xylene Mixture
+material.sifted_pentlandite=Sifted Pentlandite
+material.impure_pentlandite_slurry=Impure Pentlandite Slurry
+material.pentlandite_slurry=Pentlandite Slurry
+material.flotated_pentlandite=Flotated Pentlandite
+material.copper_nickel_matte=Copper Nickel Matte
+material.selenium_free_calcine=Selenium Free Calcine
+item.selenium_free_calcine.dust=Selenium Free Calcine
+material.copper_rich_pgm_solids=Copper Rich PGM Solids
+item.copper_rich_pgm_solids.dust=Copper Rich PGM Solids
+material.pgm_concentrate=PGM Concentrate
+item.pgm_concentrate.dust=PGM Concentrate
+
 
 # Isotopes
 

@@ -940,6 +940,17 @@ FBR.recipeBuilder()
 .EUt(30)
 .buildAndRegister()
 
+// Ethanol
+
+FBR.recipeBuilder()
+.fluidInputs(fluid('gtfo_acetaldehyde') * 100)
+.fluidInputs(fluid('hydrogen') * 100)
+.notConsumable(ore('catalystBedPlatinum'))
+.fluidOutputs(fluid('ethanol') * 100)
+.duration(5)
+.EUt(30)
+.buildAndRegister()
+
 // Nitrous Oxide
 
 ROASTER.recipeBuilder()
@@ -1707,22 +1718,22 @@ DISTILLATION_TOWER.recipeBuilder()
 
 // Isobutyl alcohol
 
-BR.recipeBuilder()
-.fluidInputs(fluid('isobutyraldehyde') * 1000)
-.fluidInputs(fluid('hydrogen') * 2000)
+FBR.recipeBuilder()
+.fluidInputs(fluid('isobutyraldehyde') * 50)
+.fluidInputs(fluid('hydrogen') * 100)
 .notConsumable(metaitem('hv_catalyst_bed_reduction'))
-.fluidOutputs(fluid('isobutyl_alcohol') * 1000)
+.fluidOutputs(fluid('isobutyl_alcohol') * 50)
 .EUt(Globals.voltAmps[3])
-.duration(80)
+.duration(10)
 .buildAndRegister()
 
-BR.recipeBuilder()
-.fluidInputs(fluid('isobutyraldehyde') * 1000)
-.fluidInputs(fluid('hydrogen') * 2000)
+FBR.recipeBuilder()
+.fluidInputs(fluid('isobutyraldehyde') * 50)
+.fluidInputs(fluid('hydrogen') * 100)
 .notConsumable(metaitem('catalystBedPlatinum'))
-.fluidOutputs(fluid('isobutyl_alcohol') * 1000)
+.fluidOutputs(fluid('isobutyl_alcohol') * 50)
 .EUt(Globals.voltAmps[3])
-.duration(80)
+.duration(10)
 .buildAndRegister()
 
 // Epoxy Resin

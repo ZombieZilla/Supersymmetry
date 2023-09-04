@@ -115,8 +115,11 @@ eventManager.listen {
         customMetaItems.addItem(207, "sponge.hafnium")
         customMetaItems.addItem(208, "sponge.hafnium.crude")
         customMetaItems.addItem(209, "sponge.platinum")
+        customMetaItems.addItem(220, "sponge.osmium")
 
 	customMetaItems.addItem(210, "bound_leather")
+
+        customMetaItems.addItem(213, "white_matte")
 
         customMetaItems.addItem(212, "drone.lv").setMaxStackSize(1).addComponents(ElectricStats.createRechargeableBattery(10000, GTValues.LV)).setModelAmount(8).setCreativeTabs(GregTechAPI.TAB_GREGTECH_TOOLS);
         customMetaItems.addItem(213, "glass_fibers")

@@ -473,6 +473,45 @@ class SuSyMaterials {
         public static Material BisphenolANovolacEpoxy;
         public static Material SulfoniumPreparationMixture;
         public static Material SuEight;
+        public static Material ImpurePentlanditeSlurry;
+        public static Material PentlanditeSlurry;
+        public static Material SiftedPentlandite;
+        public static Material FlotatedPentlandite;
+        public static Material GreenMatte;
+        public static Material WhiteMatte;
+        public static Material AcidicNickelCopperSulfateSolution;
+        public static Material OxidizedPGMLeach;
+        public static Material ImpureNickelSulfate;
+        public static Material CopperRichPGMSolids;
+        public static Material PGMCopperLeachSlurry;
+        public static Material PGMFreeCopperLeach;
+        public static Material PGMConcentrate;
+        public static Material SulfidicCopperLeach;
+        public static Material SeleniumFreeCopperLeach; 
+        public static Material CopperSelenidePrecipitate;
+        public static Material SeleniumFreeCalcine;
+        public static Material NickelExtractionMixture;
+        public static Material NickelSulfateExtract;
+        public static Material IronSolution;
+        public static Material NickelCobaltSulfateSolution;
+        public static Material Cyanex272ExtractionMixture;
+        public static Material CyanexExtract;
+        public static Material CrudeTrimethylpentylphosphinicAcid;
+        public static Material AlkalineTrimethylpentylphosphinicAcid;
+        public static Material AcidifiedTrimethylpentylphosphinicAcid;
+        public static Material DehydratedTrimethylpentylphosphinicAcid;
+        public static Material OsmiumFreePGMSolution;
+        public static Material SilverFreePGMSolution;
+        public static Material GoldFreePGMSolution;
+        public static Material GoldExtract;
+        public static Material PlatinumFreePGMSolution;
+        public static Material ChlorinatedPGMSolution;
+        public static Material PersulfateTreatedPGMSolution;
+        public static Material ScrubbedGoldExtract;
+        public static Material ChlorinatedPGMConcentrate;
+        public static Material PalladiumExtract;
+        public static Material PalladiumFreePGMSolution;
+
 
         // Petrochem Materials
 
@@ -1000,6 +1039,8 @@ class SuSyMaterials {
         public static Material SodiumHexafluoroantimonate;
         public static Material AcidWashedSiliconDioxide;
         public static Material DisulfurDichloride;
+        public static Material SeleniumDioxide;
+        public static Material CobaltSulfate; 
 
         // Second Degree Materials
 
@@ -1097,6 +1138,11 @@ class SuSyMaterials {
         public static Material DilutedSodiumSulfiteSolution;
         public static Material SodiumHexafluoroantimonateSolution;
         public static Material EGlass;
+        public static Material PotassiumPersulfateSolution;
+        public static Material PotassiumOsmateSolution;
+        public static Material OxalicAcidSolution;
+        public static Material TetraamminepalladiumDichloride;
+
 
         // Organic Chemistry Materials
 
@@ -1387,6 +1433,12 @@ class SuSyMaterials {
         public static Material DiphenylSulfoxide;
         public static Material MethanesulfonicAcid;
         public static Material TriarylsulfoniumHexafluoroantimonate;
+        public static Material TrimethylpentylphosphinicAcid;
+        public static Material DiIsobutylene;
+        public static Material SodiumHypophosphiteSolution;
+        public static Material OneHexanethiol;
+        public static Material OneBromohexane;
+        public static Material Dinhexylsulfide;
 
         // Third Degree Materials
 
