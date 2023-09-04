@@ -1680,6 +1680,12 @@ material.acetylacetone=Acetylacetone
 material.diethylaluminium_acetylacetonate=Diethylaluminium Acetylacetonate
 material.diluted_two_ethyl_two_hexenal=Diluted 2-Ethyl-2-hexenal
 material.acidic_triethyl_phosphate=Acidic Triethyl Phosphate
+material.sifted_pentlandite=Sifted Pentlandite
+material.impure_pentlandite_slurry=Impure Pentlandite Slurry
+material.pentlandite_slurry=Pentlandite Slurry
+material.flotated_pentlandite=Flotated Pentlandite
+material.copper_nickel_matte=Copper Nickel Matte
+
 
 # Isotopes
 
