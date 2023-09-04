@@ -466,6 +466,24 @@ class SuSyMaterials {
         public static Material HZSMFive;
         public static Material FunctionalizableCrosslinkedPolystyrene;
         public static Material TantalumExtract;
+        public static Material ImpurePentlanditeSlurry;
+        public static Material PentlanditeSlurry;
+        public static Material SiftedPentlandite;
+        public static Material FlotatedPentlandite;
+        public static Material GreenMatte;
+        public static Material WhiteMatte;
+        public static Material AcidicNickelCopperSulfateSolution;
+        public static Material OxidizedPGMLeach;
+        public static Material ImpureNickelSulfate;
+        public static Material CopperRichPGMSolids;
+        public static Material PGMCopperLeachSlurry;
+        public static Material PGMFreeCopperLeach;
+        public static Material PGMConcentrate;
+        public static Material SulfidicCopperLeach;
+        public static Material SeleniumFreeCopperLeach;
+        public static Material CopperSelenidePrecipitate;
+        public static Material SeleniumDioxide;
+        public static Material SeleniumFreeCalcine;
 
         // Petrochem Materials
 

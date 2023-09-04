@@ -1762,5 +1762,100 @@ public class UnknownCompositionMaterials {
                 .fluid()
                 .color(0xc97328)
                 .build();
+
+        ImpurePentlanditeSlurry = new Material.Builder(4336, "impure_pentlandite_slurry")
+                .fluid()
+                .color(0x403a06)
+                .build();
+
+        PentlanditeSlurry = new Material.Builder(4337, "pentlandite_slurry")
+                .fluid()
+                .color(0xc2af0c)
+                .build();
+
+        SiftedPentlandite = new Material.Builder(4338, "sifted_pentlandite")
+                .dust()
+                .color(0xc2af0c)
+                .iconSet(SAND)
+                .build();
+
+        FlotatedPentlandite = new Material.Builder(4339, "flotated_pentlandite")
+                .dust()
+                .color(0xc2af0c)
+                .iconSet(SHINY)
+                .build();
+
+        GreenMatte = new Material.Builder(4340, "green_matte")
+                .dust()
+                .color(0xa18922)
+                .iconSet(DULL)
+                .build();
+
+        WhiteMatte = new Material.Builder(4341, "white_matte")
+                .ingot()
+                .color(0xd1bf71)
+                .iconSet(DULL)
+                .build();
+
+        AcidicNickelCopperSulfateSolution = new Material.Builder(4342, "acidic_nickel_copper_sulfate_solution")
+                .fluid()
+                .color(0xe60e0e)
+                .build();
+
+        OxidizedPGMLeach = new Material.Builder(4343, "oxidized_pgm_leach")
+                .fluid()
+                .color(0xe60e0e)
+                .build();
+
+        ImpureNickelSulfate = new Material.Builder(4344, "impure_nickel_sulfate")
+                .fluid()
+                .color(0xe60e0e)
+                .build();
+
+        CopperRichPGMSolids = new Material.Builder(4345, "copper_rich_pgm_solids")
+                .dust()
+                .color(0xe60e0e)
+                .build();
+
+        PGMCopperLeachSlurry = new Material.Builder(4346, "pgm_copper_leach_slurry")
+                .fluid()
+                .color(0xe60e0e)
+                .build();
+
+        PGMFreeCopperLeach = new Material.Builder(4347, "pgm_free_copper_leach")
+                .fluid()
+                .color(0xe60e0e)
+                .build();
+
+        PGMConcentrate = new Material.Builder(4348, "pgm_concentrate")
+                .dust()
+                .color(0xe60e0e)
+                .build();
+
+        SulfidicCopperLeach = new Material.Builder(4349, "sulfidic_copper_leach")
+                .fluid()
+                .color(0xe60e0e)
+                .build();
+
+        CopperSelenidePrecipitate = new Material.Builder(4350, "copper_selenide_precipitate")
+                .dust()
+                .color(0xe60e0e)
+                .build();
+
+        SeleniumFreeCopperLeach = new Material.Builder(4351, "selenium_free_copper_leach")
+                .fluid()
+                .color(0xe60e0e)
+                .build();
+
+        SeleniumDioxide = new Material.Builder(4352, "selenium_dioxide")
+                .dust()
+                .color(0xe60e0e)
+                .build();
+
+        SeleniumFreeCalcine = new Material.Builder(4353, "selenium_free_calcine")
+                .dust()
+                .color(0xe60e0e)
+                .build();
+
     }
 }
