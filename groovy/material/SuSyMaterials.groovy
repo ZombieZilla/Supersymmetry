@@ -480,7 +480,7 @@ class SuSyMaterials {
         public static Material PGMFreeCopperLeach;
         public static Material PGMConcentrate;
         public static Material SulfidicCopperLeach;
-        public static Material SeleniumFreeCopperLeach;
+        public static Material SeleniumFreeCopperLeach; 
         public static Material CopperSelenidePrecipitate;
         public static Material SeleniumDioxide;
         public static Material SeleniumFreeCalcine;

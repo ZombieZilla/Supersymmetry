@@ -250,7 +250,7 @@ SIFTER.recipeBuilder()
     .outputs(metaitem('dustCopperSelenidePrecipitate') )
     .duration(200)
     .EUt(Globals.voltAmps[2])
-    .buildAndRegister()
+    .buildAndRegister() 
 
 ROASTER.recipeBuilder()
     .inputs(ore('dustCopperSelenidePrecipitate') )
