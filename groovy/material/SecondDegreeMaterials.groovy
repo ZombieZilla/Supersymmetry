@@ -551,5 +551,38 @@ public class SecondDegreeMaterials {
                 .build();
 
         DivalentPalladiumSolution.setFormula("(?)(NH4Cl)(HCl)6(H2O)8", true)
+        
+        PotassiumPersulfateSolution = new Material.Builder(13088, "potassium_persulfate_solution")
+                .fluid()
+                .components(PotassiumPersulfate, 1, Water, 1)
+                .colorAverage()
+                .build();
+
+        PotassiumPersulfateSolution.setFormula("(K2S2O8)(H2O)", true)
+
+        PotassiumOsmateSolution = new Material.Builder(13089, "potassium_osmate_solution")
+                .fluid()
+                .components(Potassium, 2, Osmium, 1, Oxygen, 7, Hydrogen, 6)
+                .color(0xbf21a0)
+                .build();
+                
+        PotassiumOsmateSolution.setFormula("(K2[OsO2(OH)4])(H2O)", true)
+
+        OxalicAcidSolution = new Material.Builder(13090, "oxalic_acid_solution")
+                .fluid()
+                .components(Hydrogen, 3, Carbon, 2, Oxygen, 2)
+                .color(0xb5a7aa)
+                .build();
+                
+        OxalicAcidSolution.setFormula("(C2H2O4)(H2O)", true)
+
+        TetraamminepalladiumDichloride = new Material.Builder(13091, "tetraamminepalladium_dichloride")
+                .fluid()
+                .components(Chlorine, 2, Hydrogen, 12, Nitrogen, 4, Palladium, 1)
+                .colorAverage()
+                .build();
+                
+        TetraamminepalladiumDichloride.setFormula("[Pd(NH3)4]Cl2", true)
+
     }
 }

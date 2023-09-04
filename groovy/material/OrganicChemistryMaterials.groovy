@@ -1700,5 +1700,41 @@ public class OrganicChemistryMaterials {
                 .components(Carbon, 6, Hydrogen, 13, Nitrogen, 1)
                 .color(0xbfba8c)
                 .build();
+                
+        TrimethylpentylphosphinicAcid = new Material.Builder(15274, "trimethylpentylphosphinic_acid")
+                .fluid()
+                .components(Carbon, 16, Hydrogen, 35, Oxygen, 2, Phosphorus, 1)
+                .colorAverage()
+                .build();
+
+        DiIsobutylene = new Material.Builder(15275, "diisobutylene")
+                .fluid()
+                .components(Carbon, 8, Hydrogen, 16)
+                .colorAverage()
+                .build();
+                
+        SodiumHypophosphiteSolution = new Material.Builder(15277, "sodium_hypophosphite_solution")
+                .fluid()
+                .components(SodiumHypophosphite, 1, AceticAcid, 1)
+                .colorAverage()
+                .build();
+
+        OneHexanethiol = new Material.Builder(15278, "one_hexanethiol")
+                .fluid()
+                .components(Carbon, 6, Hydrogen, 14, Sulfur, 1)
+                .colorAverage()
+                .build();
+
+        OneBromohexane = new Material.Builder(15279, "one_bromohexane")
+                .fluid()
+                .components(Carbon, 6, Hydrogen, 13, Bromine, 1)
+                .colorAverage()
+                .build();
+                
+        Dinhexylsulfide = new Material.Builder(15280, "di_n_hexyl_sulfide")
+                .fluid()
+                .components(Carbon, 12, Hydrogen, 26, Sulfur, 1)
+                .colorAverage()
+                .build();
     }
 }

@@ -1792,7 +1792,7 @@ public class UnknownCompositionMaterials {
                 .build();
 
         WhiteMatte = new Material.Builder(4341, "white_matte")
-                .ingot()
+                .dust()
                 .color(0xd1bf71)
                 .iconSet(DULL)
                 .build();
@@ -1847,15 +1847,103 @@ public class UnknownCompositionMaterials {
                 .color(0xe60e0e)
                 .build(); 
 
-        SeleniumDioxide = new Material.Builder(4352, "selenium_dioxide")
+        SeleniumFreeCalcine = new Material.Builder(4352, "selenium_free_calcine")
                 .dust()
                 .color(0xe60e0e)
                 .build();
 
-        SeleniumFreeCalcine = new Material.Builder(4353, "selenium_free_calcine")
-                .dust()
+        NickelExtractionMixture = new Material.Builder(4353, "nickel_extraction_mixture")
+                .fluid()
                 .color(0xe60e0e)
                 .build();
 
+        NickelSulfateExtract = new Material.Builder(4354, "nickel_sulfate_extract")
+                .fluid()
+                .color(0xe60e0e)
+                .build();
+
+        IronSolution = new Material.Builder(4355, "iron_solution")
+                .fluid()
+                .color(0xe60e0e)
+                .build();
+
+        NickelCobaltSulfateSolution = new Material.Builder(4356, "nickel_cobalt_sulfate_solution")
+                .fluid()
+                .color(0xe60e0e)
+                .build();
+
+        Cyanex272ExtractionMixture = new Material.Builder(4357, "cyanex_272_extraction_mixture")
+                .fluid()
+                .color(0xe60e0e)
+                .build();
+
+        CyanexExtract = new Material.Builder(4358, "cyanex_extract")
+                .fluid()
+                .color(0xe60e0e)
+                .build();
+
+        CrudeTrimethylpentylphosphinicAcid = new Material.Builder(4360, "crude_trimethylpentylphosphinic_acid")
+                .fluid()
+                .color(0xc4a335)
+                .build();
+        
+        AlkalineTrimethylpentylphosphinicAcid = new Material.Builder(4361, "alkaline_trimethylpentylphosphinic_acid")
+                .fluid()
+                .color(0xe60e0e)
+                .build();
+        
+        AcidifiedTrimethylpentylphosphinicAcid = new Material.Builder(4362, "acidified_trimethylpentylphosphinic_acid")
+                .fluid()
+                .color(0xe60e0e)
+                .build();
+        
+        DehydratedTrimethylpentylphosphinicAcid = new Material.Builder(4363, "dehydrated_trimethylpentylphosphinic_acid")
+                .fluid()
+                .color(0xe60e0e)
+                .build();
+        OsmiumFreePGMSolution = new Material.Builder(4364, "osmium_free_pgm_soluion")
+                .fluid()
+                .color(0xe0dcb6)
+                .build();
+        SilverFreePGMSolution = new Material.Builder(4365, "silver_free_pgm_solution")
+                .fluid()
+                .color(0xa3a18b)
+                .build();
+        GoldFreePGMSolution = new Material.Builder(4366, "gold_free_pgm_solution")
+                .fluid()
+                .color(0x82806b)
+                .build();
+        GoldExtract = new Material.Builder(4367, "gold_extract")
+                .fluid()
+                .color(0xe3d76b)
+                .build();
+        ScrubbedGoldExtract = new Material.Builder(4368, "scrubbed_gold_extract")
+                .fluid()
+                .color(0xf5e65f)
+                .build();
+        PlatinumFreePGMSolution = new Material.Builder(4369, "platinum_free_pgm_solution")
+                .fluid()
+                .color(0xbfb984)
+                .build();        
+        ChlorinatedPGMSolution = new Material.Builder(4370, "chlorinated_pgm_solution")
+                .fluid()
+                .color(0xdbe0ad)
+                .build();
+        PersulfateTreatedPGMSolution = new Material.Builder(4371, "persulfate_treated_pgm_solution")
+                .fluid()
+                .color(0xccc9a9)
+                .build(); 
+        ChlorinatedPGMConcentrate = new Material.Builder(4372, "chlorinated_pgm_concentrate")
+                .fluid()
+                .color(0xaba07e)
+                .build();   
+        PalladiumFreePGMSolution = new Material.Builder(4373, "palladium_free_pgm_solution")
+                .fluid()
+                .color(0xaba07e)
+                .build();  
+        PalladiumExtract = new Material.Builder(4374, "palladium_extract")
+                .fluid()
+                .color(0xaba07e)
+                .build();  
     }
 }

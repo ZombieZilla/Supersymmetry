@@ -482,8 +482,29 @@ class SuSyMaterials {
         public static Material SulfidicCopperLeach;
         public static Material SeleniumFreeCopperLeach; 
         public static Material CopperSelenidePrecipitate;
-        public static Material SeleniumDioxide;
         public static Material SeleniumFreeCalcine;
+        public static Material NickelExtractionMixture;
+        public static Material NickelSulfateExtract;
+        public static Material IronSolution;
+        public static Material NickelCobaltSulfateSolution;
+        public static Material Cyanex272ExtractionMixture;
+        public static Material CyanexExtract;
+        public static Material CrudeTrimethylpentylphosphinicAcid;
+        public static Material AlkalineTrimethylpentylphosphinicAcid;
+        public static Material AcidifiedTrimethylpentylphosphinicAcid;
+        public static Material DehydratedTrimethylpentylphosphinicAcid;
+        public static Material OsmiumFreePGMSolution;
+        public static Material SilverFreePGMSolution;
+        public static Material GoldFreePGMSolution;
+        public static Material GoldExtract;
+        public static Material PlatinumFreePGMSolution;
+        public static Material ChlorinatedPGMSolution;
+        public static Material PersulfateTreatedPGMSolution;
+        public static Material ScrubbedGoldExtract;
+        public static Material ChlorinatedPGMConcentrate;
+        public static Material PalladiumExtract;
+        public static Material PalladiumFreePGMSolution;
+
 
         // Petrochem Materials
 
@@ -1008,6 +1029,8 @@ class SuSyMaterials {
         public static Material ActivatedRaneyCobalt;
         public static Material LithiumOxide;
         public static Material ManganeseIISulfate;
+        public static Material SeleniumDioxide;
+        public static Material CobaltSulfate; 
 
         // Second Degree Materials
 
@@ -1098,6 +1121,11 @@ class SuSyMaterials {
         public static Material TantalumFluorideSolution;
         public static Material AmmoniumPerrhenateSolution;
         public static Material AluminiumChlorideSolution;
+        public static Material PotassiumPersulfateSolution;
+        public static Material PotassiumOsmateSolution;
+        public static Material OxalicAcidSolution;
+        public static Material TetraamminepalladiumDichloride;
+
 
         // Organic Chemistry Materials
 
@@ -1377,6 +1405,12 @@ class SuSyMaterials {
         public static Material Ethyltoluene;
         public static Material VinylbenzylChloride;
         public static Material Cyclohexylamine;
+        public static Material TrimethylpentylphosphinicAcid;
+        public static Material DiIsobutylene;
+        public static Material SodiumHypophosphiteSolution;
+        public static Material OneHexanethiol;
+        public static Material OneBromohexane;
+        public static Material Dinhexylsulfide;
 
         // Third Degree Materials
 

@@ -3225,6 +3225,18 @@ public class FirstDegreeMaterials{
                 .colorAverage()
                 .build();
 
-        Diamminedichloropalladium.setFormula("Pd(NH3)2Cl2", true)
+        Diamminedichloropalladium.setFormula("[Pd(NH3)2]Cl2", true)
+        
+        SeleniumDioxide = new Material.Builder(8569, "selenium_dioxide")
+                .dust()
+                .components(Selenium, 1, Oxygen, 2)
+                .colorAverage()
+                .build();
+
+        CobaltSulfate = new Material.Builder(8570, "cobalt_sulfate")
+                .fluid()
+                .components(Cobalt, 1, Sulfur, 1, Oxygen, 4)
+                .colorAverage()
+                .build();
     }
 }
