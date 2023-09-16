@@ -4846,7 +4846,3 @@ FBR.recipeBuilder()
         .duration(100)
         .EUt(Globals.voltAmps[2])
         .buildAndRegister()
-<<<<<<< HEAD
-=======
-
->>>>>>> 4e9da8a0ca8413f5fcab7743b4412c8cd4c0e521
