@@ -119,12 +119,12 @@ eventManager.listen {
 
 	customMetaItems.addItem(210, "bound_leather")
 
-        customMetaItems.addItem(213, "white_matte")
-
         customMetaItems.addItem(212, "drone.lv").setMaxStackSize(1).addComponents(ElectricStats.createRechargeableBattery(10000, GTValues.LV)).setModelAmount(8).setCreativeTabs(GregTechAPI.TAB_GREGTECH_TOOLS);
         customMetaItems.addItem(213, "glass_fibers")
         customMetaItems.addItem(214, "epoxy_lamina")
 
+        customMetaItems.addItem(230, "white_matte")
+        
         customMetaItems.addItem(250, "beads.amberlyst_ch");
         customMetaItems.addItem(251, "beads.ag_fifty_w_x_eight");
         customMetaItems.addItem(252, "beads.rhenium_ion_exchange")
