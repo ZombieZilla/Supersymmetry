@@ -1768,161 +1768,229 @@ public class UnknownCompositionMaterials {
                 .color(0xbd800f)
                 .build();
 
-        FlotatedPentlandite = new Material.Builder(4337, "flotated_pentlandite")
+        ImpureBrominatedBisphenolEmulsion = new Material.Builder(4337, "impure_brominated_bisphenol_emulsion")
+                .fluid()
+                .color(0x502d0a)
+                .build();
+
+        ImpureBrominatedBisphenolSolution = new Material.Builder(4338, "impure_brominated_bisphenol_solution")
+                .fluid()
+                .color(0x78410a)
+                .build();
+
+        BisphenolANovolacEpoxy = new Material.Builder(4339, "bisphenol_a_novolac_epoxy")
+                .dust()
+                .color(0xa87e54)
+                .build();
+
+        SulfoniumPreparationMixture = new Material.Builder(4340, "sulfonium_preparation_mixture")
+                .fluid()
+                .color(0x9e935c)
+                .build();
+
+        SuEight = new Material.Builder(4341, "su_eight")
+                .fluid()
+                .color(0x11915c)
+                .build();
+
+        HydrodealkylatedTolueneMixture = new Material.Builder(4342, "hydrodealkylated_toluene_mixture")
+                .fluid()
+                .color(0x4a320a)
+                .build();
+
+       ImpurePentlanditeSlurry = new Material.Builder(4343, "impure_pentlandite_slurry")
+                .fluid()
+                .color(0x403a06)
+                .build();
+
+        PentlanditeSlurry = new Material.Builder(4344, "pentlandite_slurry")
+                .fluid()
+                .color(0xc2af0c)
+                .build();
+
+        SiftedPentlandite = new Material.Builder(4345, "sifted_pentlandite")
+                .dust()
+                .color(0xc2af0c)
+                .iconSet(SAND)
+                .build();
+
+        
+        FlotatedPentlandite = new Material.Builder(4346, "flotated_pentlandite")
                 .dust()
                 .color(0xc2af0c)
                 .iconSet(SHINY)
                 .build();
 
-        GreenMatte = new Material.Builder(4338, "green_matte")
+        GreenMatte = new Material.Builder(4347, "green_matte")
                 .dust()
                 .color(0xa18922)
                 .iconSet(DULL)
                 .build();
 
-        WhiteMatte = new Material.Builder(4339, "white_matte")
+        WhiteMatte = new Material.Builder(4348, "white_matte")
                 .dust()
                 .color(0xd1bf71)
                 .iconSet(DULL)
                 .build();
 
-        AcidicNickelCopperSulfateSolution = new Material.Builder(4340, "acidic_nickel_copper_sulfate_solution")
+        AcidicNickelCopperSulfateSolution = new Material.Builder(4349, "acidic_nickel_copper_sulfate_solution")
                 .fluid()
                 .color(0x502d0a)
                 .build();
 
-        ImpureBrominatedBisphenolSolution = new Material.Builder(4341, "impure_brominated_bisphenol_solution")
+        OxidizedPGMLeach = new Material.Builder(4350, "oxidized_pgm_leach")
                 .fluid()
-                .color(0x78410a)
+                .color(0xe60e0e)
                 .build();
 
-        BisphenolANovolacEpoxy = new Material.Builder(4342, "bisphenol_a_novolac_epoxy")
-                .dust()
-                .color(0xa87e54)
-                .build();
-
-        SulfoniumPreparationMixture = new Material.Builder(4343, "sulfonium_preparation_mixture")
+        ImpureNickelSulfate = new Material.Builder(4351, "impure_nickel_sulfate")
                 .fluid()
-                .color(0x9e935c)
+                .color(0xe60e0e)
                 .build();
 
-        SuEight = new Material.Builder(4344, "su_eight")
-                .fluid()
-                .color(0x11915c)
-                .build();
-
-        HydrodealkylatedTolueneMixture = new Material.Builder(4345, "hydrodealkylated_toluene_mixture")
-                .fluid()
-                .color(0x4a320a)
-                .build();
-
-        CopperSelenidePrecipitate = new Material.Builder(4346, "copper_selenide_precipitate")
+        CopperRichPGMSolids = new Material.Builder(4352, "copper_rich_pgm_solids")
                 .dust()
                 .color(0xe60e0e)
                 .build();
 
-        SeleniumFreeCopperLeach = new Material.Builder(4347, "selenium_free_copper_leach")
+        PGMCopperLeachSlurry = new Material.Builder(4353, "pgm_copper_leach_slurry")
                 .fluid()
                 .color(0xe60e0e)
-                .build(); 
+                .build();
 
-        SeleniumFreeCalcine = new Material.Builder(4348, "selenium_free_calcine")
+        PGMFreeCopperLeach = new Material.Builder(4354, "pgm_free_copper_leach")
+                .fluid()
+                .color(0xe60e0e)
+                .build();
+
+        PGMConcentrate = new Material.Builder(4355, "pgm_concentrate")
                 .dust()
                 .color(0xe60e0e)
                 .build();
 
-        NickelExtractionMixture = new Material.Builder(4349, "nickel_extraction_mixture")
+        SulfidicCopperLeach = new Material.Builder(4356, "sulfidic_copper_leach")
                 .fluid()
                 .color(0xe60e0e)
                 .build();
 
-        NickelSulfateExtract = new Material.Builder(4350, "nickel_sulfate_extract")
+        CopperSelenidePrecipitate = new Material.Builder(4357, "copper_selenide_precipitate")
+                .dust()
+                .color(0xe60e0e)
+                .build();
+
+        SeleniumFreeCopperLeach = new Material.Builder(4358, "selenium_free_copper_leach")
                 .fluid()
                 .color(0xe60e0e)
                 .build();
 
-        IronSolution = new Material.Builder(4351, "iron_solution")
+        SeleniumFreeCalcine = new Material.Builder(4359, "selenium_free_calcine")
+                .dust()
+                .color(0xe60e0e)
+                .build();
+
+        NickelExtractionMixture = new Material.Builder(4360, "nickel_extraction_mixture")
                 .fluid()
                 .color(0xe60e0e)
                 .build();
 
-        NickelCobaltSulfateSolution = new Material.Builder(4352, "nickel_cobalt_sulfate_solution")
+        NickelSulfateExtract = new Material.Builder(4361, "nickel_sulfate_extract")
                 .fluid()
                 .color(0xe60e0e)
                 .build();
 
-        Cyanex272ExtractionMixture = new Material.Builder(4353, "cyanex_272_extraction_mixture")
+        IronSolution = new Material.Builder(4362, "iron_solution")
                 .fluid()
                 .color(0xe60e0e)
                 .build();
 
-        CyanexExtract = new Material.Builder(4354, "cyanex_extract")
+        NickelCobaltSulfateSolution = new Material.Builder(4363, "nickel_cobalt_sulfate_solution")
                 .fluid()
                 .color(0xe60e0e)
                 .build();
 
-        CrudeTrimethylpentylphosphinicAcid = new Material.Builder(4355, "crude_trimethylpentylphosphinic_acid")
+        Cyanex272ExtractionMixture = new Material.Builder(4364, "cyanex_272_extraction_mixture")
+                .fluid()
+                .color(0xe60e0e)
+                .build();
+
+        CyanexExtract = new Material.Builder(4365, "cyanex_extract")
+                .fluid()
+                .color(0xe60e0e)
+                .build();
+
+        CrudeTrimethylpentylphosphinicAcid = new Material.Builder(4366, "crude_trimethylpentylphosphinic_acid")
                 .fluid()
                 .color(0xc4a335)
                 .build();
         
-        AlkalineTrimethylpentylphosphinicAcid = new Material.Builder(4356, "alkaline_trimethylpentylphosphinic_acid")
+        AlkalineTrimethylpentylphosphinicAcid = new Material.Builder(4367, "alkaline_trimethylpentylphosphinic_acid")
                 .fluid()
                 .color(0xe60e0e)
                 .build();
         
-        AcidifiedTrimethylpentylphosphinicAcid = new Material.Builder(4357, "acidified_trimethylpentylphosphinic_acid")
+        AcidifiedTrimethylpentylphosphinicAcid = new Material.Builder(4368, "acidified_trimethylpentylphosphinic_acid")
                 .fluid()
                 .color(0xe60e0e)
                 .build();
         
-        DehydratedTrimethylpentylphosphinicAcid = new Material.Builder(4358, "dehydrated_trimethylpentylphosphinic_acid")
+        DehydratedTrimethylpentylphosphinicAcid = new Material.Builder(4369, "dehydrated_trimethylpentylphosphinic_acid")
                 .fluid()
                 .color(0xe60e0e)
                 .build();
-        OsmiumFreePGMSolution = new Material.Builder(4359, "osmium_free_pgm_soluion")
+
+        OsmiumFreePGMSolution = new Material.Builder(4370, "osmium_free_pgm_soluion")
                 .fluid()
                 .color(0xe0dcb6)
                 .build();
-        SilverFreePGMSolution = new Material.Builder(4360, "silver_free_pgm_solution")
+
+        SilverFreePGMSolution = new Material.Builder(4371, "silver_free_pgm_solution")
                 .fluid()
                 .color(0xa3a18b)
                 .build();
-        GoldFreePGMSolution = new Material.Builder(4361, "gold_free_pgm_solution")
+
+        GoldFreePGMSolution = new Material.Builder(4372, "gold_free_pgm_solution")
                 .fluid()
                 .color(0x82806b)
                 .build();
-        GoldExtract = new Material.Builder(4362, "gold_extract")
+
+        GoldExtract = new Material.Builder(4373, "gold_extract")
                 .fluid()
                 .color(0xe3d76b)
                 .build();
-        ScrubbedGoldExtract = new Material.Builder(4363, "scrubbed_gold_extract")
+
+        ScrubbedGoldExtract = new Material.Builder(4374, "scrubbed_gold_extract")
                 .fluid()
                 .color(0xf5e65f)
                 .build();
-        PlatinumFreePGMSolution = new Material.Builder(4364, "platinum_free_pgm_solution")
+
+        PlatinumFreePGMSolution = new Material.Builder(4375, "platinum_free_pgm_solution")
                 .fluid()
                 .color(0xbfb984)
-                .build();        
-        ChlorinatedPGMSolution = new Material.Builder(4365, "chlorinated_pgm_solution")
+                .build();
+
+        ChlorinatedPGMSolution = new Material.Builder(4376, "chlorinated_pgm_solution")
                 .fluid()
                 .color(0xdbe0ad)
                 .build();
-        PersulfateTreatedPGMSolution = new Material.Builder(4366, "persulfate_treated_pgm_solution")
+
+        PersulfateTreatedPGMSolution = new Material.Builder(4377, "persulfate_treated_pgm_solution")
                 .fluid()
                 .color(0xccc9a9)
-                .build(); 
-        ChlorinatedPGMConcentrate = new Material.Builder(4367, "chlorinated_pgm_concentrate")
+                .build();
+
+        ChlorinatedPGMConcentrate = new Material.Builder(4378, "chlorinated_pgm_concentrate")
                 .fluid()
                 .color(0xaba07e)
-                .build();   
-        PalladiumFreePGMSolution = new Material.Builder(4368, "palladium_free_pgm_solution")
+                .build();
+
+        PalladiumFreePGMSolution = new Material.Builder(4379, "palladium_free_pgm_solution")
                 .fluid()
                 .color(0xaba07e)
-                .build();  
-        PalladiumExtract = new Material.Builder(4369, "palladium_extract")
+                .build();
+
+        PalladiumExtract = new Material.Builder(4380, "palladium_extract")
                 .fluid()
                 .color(0xaba07e)
-                .build();  
+                .build();
     }
 }
