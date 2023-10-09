@@ -282,19 +282,7 @@ ELECTROLYTIC_CELL.recipeBuilder()
     .EUt(Globals.voltAmps[2])
     .buildAndRegister()    
 
-//solvent extraction
-//extraction mixture 1
-MIXER.recipeBuilder()
-    .fluidInputs(fluid('di_two_ethylhexyl_phosphoric_acid') )
-    .fluidInputs(fluid('kerosene') )
-    .fluidOutputs(fluid('nickel_extraction_mixture') ) //add material
-    .duration(200)
-    .EUt(Globals.voltAmps[2])
-    .buildAndRegister()
-
-//cyanex production (should this be moved elsewhere?)
-//
-//
+//cyanex production
 
 BR.recipeBuilder()
     .inputs(ore('dustSodiumHypophosphite') * 3)
@@ -352,53 +340,57 @@ VACUUM_DT.recipeBuilder()
 MIXER.recipeBuilder()
     .fluidInputs(fluid('trimethylpentylphosphinic_acid') * 1000)
     .fluidInputs(fluid('ortho_xylene') * 1000)
-    .fluidOutputs(fluid('cyanex_272_extraction_mixture') * 1000)
+    .fluidOutputs(fluid('cobalt_extraction_mixture') * 1000)
     .duration(120)
     .EUt(Globals.voltAmps[2])
     .buildAndRegister()
 //end cyanex chain
 
 
+//input the impure nickel sulfate solution into a crystallizer
+//it should make a mixture of cobalt and nickel sulfate dusts and a mother liquor of iron ii sulfate solution
+//then redissolve and extract with cyanex
 
-// first extractant makes a nickel-cobalt solutioon and leaves behind iron solution
-CENTRIFUGE.recipeBuilder()
-    .fluidInputs(fluid('nickel_extraction_mixture') )
+// crystallisation step makes a nickel-cobalt solution and leaves behind an iron sulfate mother liquor
+CRYSTALLIZER.recipeBuilder()
     .fluidInputs(fluid('impure_nickel_sulfate') )
-    .fluidOutputs(fluid('nickel_sulfate_extract') ) //material
-    .fluidOutputs(fluid('iron_solution') )   //material
-    .duration(200)
+    .fluidOutputs(fluid('iron_sulfate_mother_liquor') )
+    .outputs(metaitem('dustNickelCobaltSulfate') )
+    .duration(100)
+    .EUt(Globals.voltAmps[2])
+    .buildAndRegister()
+    
+MIXER.recipeBuilder()
+    .inputs(ore('dustNickelCobaltSulfate') )
+    .fluidInputs(fluid('water') )
+    .fluidOutputs(fluid('nickel_cobalt_sulfate_solution'))
+    .duration(20)
     .EUt(Globals.voltAmps[2])
     .buildAndRegister()
 
+// cyanex-272 extractant makes cobalt sulfate leaving behind nickel sulfate solution
 CENTRIFUGE.recipeBuilder()
-    .fluidInputs(fluid('nickel_sulfate_extract') )
-    .fluidInputs(fluid('diluted_sulfuric_acid') )
-    .fluidOutputs(fluid('nickel_extraction_mixture') )
-    .fluidOutputs(fluid('nickel_cobalt_sulfate_solution')) //material
-    .duration(200)
-    .EUt(Globals.voltAmps[2])
-    .buildAndRegister()
-
-// second extract (cyanex-272) makes cobalt sulfate leaving behind nickel sulfate
-CENTRIFUGE.recipeBuilder()
-    .fluidInputs(fluid('cyanex_272_extraction_mixture') ) //material
+    .fluidInputs(fluid('cobalt_extraction_mixture') ) 
     .fluidInputs(fluid('nickel_cobalt_sulfate_solution') )
-    .fluidOutputs(fluid('cyanex_extract') ) //material
+    .fluidOutputs(fluid('cobalt_extract') ) 
     .fluidOutputs(fluid('nickel_sulfate_solution')) 
     .duration(200)
     .EUt(Globals.voltAmps[2])
     .buildAndRegister()
 
 CENTRIFUGE.recipeBuilder()
-    .fluidInputs(fluid('cyanex_extract') )
-    .fluidInputs(fluid('sulfuric_acid') ) 
-    .fluidOutputs(fluid('cyanex_272_extraction_mixture') )
-    .fluidOutputs(fluid('cobalt_sulfate')) //material
+    .fluidInputs(fluid('cobalt_extract') )
+    .fluidInputs(fluid('diluted_sulfuric_acid') ) 
+    .fluidOutputs(fluid('cobalt_extraction_mixture') )
+    .fluidOutputs(fluid('cobalt_sulfate')) 
     .duration(200)
     .EUt(Globals.voltAmps[2])
     .buildAndRegister()
 
-
+//TODO For Pre-PGM Proc: 
+//-IronSulfateMotherLiquor Proc (me personally, I would precipitate it as a hydroxide or pressure autoclave in oxygen atmosphere to produce an iron oxide hydroxide is simpler to implement thoufh)
+//-Cobalt sulfate (is it a solution (probably, so I should update the formula for it))
+//-Maybe add a formula to cobalt extraction mixture, it's made from C8H10 + C16H35O2P
 
 //method described in original paper (renner 2001)
 

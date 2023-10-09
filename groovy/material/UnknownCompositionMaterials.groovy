@@ -1888,17 +1888,17 @@ public class UnknownCompositionMaterials {
                 .color(0xe60e0e)
                 .build();
 
-        NickelExtractionMixture = new Material.Builder(4360, "nickel_extraction_mixture")
+        NickelExtractionMixture = new Material.Builder(4360, "nickel_extraction_mixture") //delete
                 .fluid()
                 .color(0xe60e0e)
                 .build();
 
-        NickelSulfateExtract = new Material.Builder(4361, "nickel_sulfate_extract")
-                .fluid()
+        NickelCobaltSulfate = new Material.Builder(4361, "nickel_cobalt_sulfate") 
+                .dust()
                 .color(0xe60e0e)
                 .build();
 
-        IronSolution = new Material.Builder(4362, "iron_solution")
+        IronSulfateMotherLiquor = new Material.Builder(4362, "iron_sulfate_mother_liquor")
                 .fluid()
                 .color(0xe60e0e)
                 .build();
@@ -1908,12 +1908,12 @@ public class UnknownCompositionMaterials {
                 .color(0xe60e0e)
                 .build();
 
-        Cyanex272ExtractionMixture = new Material.Builder(4364, "cyanex_272_extraction_mixture")
+        CobaltExtractionMixture = new Material.Builder(4364, "cobalt_extraction_mixture")
                 .fluid()
                 .color(0xe60e0e)
                 .build();
 
-        CyanexExtract = new Material.Builder(4365, "cyanex_extract")
+        CobaltExtract = new Material.Builder(4365, "cobalt_extract")
                 .fluid()
                 .color(0xe60e0e)
                 .build();

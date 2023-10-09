@@ -491,11 +491,11 @@ class SuSyMaterials {
         public static Material CopperSelenidePrecipitate;
         public static Material SeleniumFreeCalcine;
         public static Material NickelExtractionMixture;
-        public static Material NickelSulfateExtract;
-        public static Material IronSolution;
+        public static Material NickelCobaltSulfate;
+        public static Material IronSulfateMotherLiquor;
         public static Material NickelCobaltSulfateSolution;
-        public static Material Cyanex272ExtractionMixture;
-        public static Material CyanexExtract;
+        public static Material CobaltExtractionMixture;
+        public static Material CobaltExtract;
         public static Material CrudeTrimethylpentylphosphinicAcid;
         public static Material AlkalineTrimethylpentylphosphinicAcid;
         public static Material AcidifiedTrimethylpentylphosphinicAcid;
@@ -1041,6 +1041,7 @@ class SuSyMaterials {
         public static Material DisulfurDichloride;
         public static Material SeleniumDioxide;
         public static Material CobaltSulfate; 
+        public static Material NickelSulfate;
 
         // Second Degree Materials
 
