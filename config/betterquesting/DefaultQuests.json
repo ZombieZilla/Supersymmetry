@@ -6990,7 +6990,7 @@
         "betterquesting:10": {
           "desc:8": "susy.quest.db.179.desc",
           "icon:10": {
-            "Damage:2": 290,
+            "Damage:2": 17035,
             "id:8": "gregtech:machine"
           },
           "ignoresview:1": 0,
@@ -7006,7 +7006,7 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 290,
+              "Damage:2": 17035,
               "id:8": "gregtech:machine"
             }
           },
@@ -15589,6 +15589,7 @@
           "taskID:8": "bq_standard:fluid"
         },
         "1:10": {
+          "index:3": 1,
           "requiredFluids:9": {
             "0:10": {
               "Amount:3": 1000,
@@ -15651,7 +15652,7 @@
       },
       "questID:3": 436,
       "rewards:9": {},
-      "tasks:9": {  
+      "tasks:9": {
         "0:10": {
           "taskID:8": "bq_standard:checkbox"
         }
@@ -35189,7 +35190,6 @@
           },
           "ignoresview:1": 0,
           "name:8": "susy.quest.db.823.title",
-          "tasklogic:8": "OR",
           "tasklogic:8": "OR",
           "visibility:8": "ALWAYS"
         }
